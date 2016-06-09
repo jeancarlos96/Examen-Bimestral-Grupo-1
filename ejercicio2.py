@@ -1,7 +1,7 @@
 x= input("Ingrese un número: ")
-y=0
-resp=0
-for n in range(1, 1000):
-		print "%s X %s = %s" % (x, n, x*n)
-
-
+for i in range(x,1000):
+	y=0
+	resp=0
+	resp= x*y
+	y=y+1
+print (p)
