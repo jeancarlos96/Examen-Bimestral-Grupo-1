@@ -5,3 +5,5 @@ CHAMBA JEAN CARLOS y CHAMBA JAVIER (Ejercicios 4, 5, 6)
 CHAMBA JEAN CARLOS (Coordinador)
 
 Archivos que digan Mario Nuñez, fueron subidos por Michelle Arias, no se cambio la cuenta del Github
+
+Se logro solucionar problema con GitHub
