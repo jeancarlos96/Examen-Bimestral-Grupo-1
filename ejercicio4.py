@@ -8,9 +8,11 @@ def creartxt():
 
 def grabartxt():
 	archivo=open('datos.txt','w')
+	archivo.write("FRASE ORIGINAL: ")
 	archivo.write(frase)
+	archivo.write("\n")
+	archivo.write("FRASE TRADUCIDA: ")
 	archivo.write(trad)
-	#txt=archivo.read()
 	archivo.close()
 
 blob1 = TextBlob(frase)
