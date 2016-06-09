@@ -1,0 +1,1 @@
+Los multiplos de 16 son: 1008
