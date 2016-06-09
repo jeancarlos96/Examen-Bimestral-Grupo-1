@@ -1,5 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
+import math
+
 root = Tk()
 root.title('AREA Y VOLUMEN')
 
@@ -9,17 +11,17 @@ radio_str = StringVar()
 radio_entry = Entry(root,textvariable=radio_str)
 radio_entry.grid(row=1,column=2)
 
-#FUNCION SUMA Y RESTA 
-def area():
-   n1=float(area_entry.get())
-   area = n1+n2
-   messagebox.showinfo("test","LA SUMA ES IGUAL A: ")
+#FUNCION Area y Volumen 	
+def volumen():
+   n1=float(radio_entry.get())
+   vol =(4*math.pi*(n1*n1*n1))/3
+   messagebox.showinfo("test","El volumen es: %.2f"%vol)
    area_entry.delete(0,20)
    
-def volumen():
-   n1=float(area_entry.get())
-   resta=n1-n2
-   messagebox.showinfo("test","LA RESTA ES IGUAL A: %.2f"%resta)
+def area():
+   n1=float(radio_entry.get())
+   ar=4*math.pi*(n1*n1)
+   messagebox.showinfo("test","el area es: %.2f"%ar)
    area_entry.delete(0,20)
    
 
