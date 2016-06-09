@@ -1,8 +1,9 @@
 from textblob import TextBlob
 
-text = 'Hola'
+frase = input("INGRESE SU FRASE: ")
 
-blob1 = TextBlob(text)
+
+blob1 = TextBlob(frase)
 blob1.tags
 blob1.noun_phrases
 
