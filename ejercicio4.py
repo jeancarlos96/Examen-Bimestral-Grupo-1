@@ -3,24 +3,22 @@ from textblob import TextBlob
 frase = input("INGRESE SU FRASE: ")
 
 def creartxt():
-	texto_trad = open ('datos.txt','a')
-	texto_trad.close()
+	archivo= open('datos.txt','a')
+	archivo.close()
 
 def grabartxt():
-	texto_trad = open('datos.txt','w')
-	txt = texto_trad.read()
-	texto_trad.write(txt, 'w')	
-	archi.close()
+	archivo=open('datos.txt','w')
+	archivo.write(frase)
+	#archivo.write(trad)
+	#txt=archivo.read()
+	archivo.close()
 
 blob1 = TextBlob(frase)
 blob1.tags
 blob1.noun_phrases
-
+trad=(blob1.translate (to = "en"))
 print ("#############-------- TRADUCCION ----##########################")
-print (blob1.translate (to = "en")) ##"en" en esta parte se pone el idionma al que se quiere traducir
-#for sentence in blob1.sentences:
-#	print(sentence.sentiment.polarity)
-
+print (trad) ##"en" en esta parte se pone el idionma al que se quiere traducir
 
 creartxt()
 grabartxt()
