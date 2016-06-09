@@ -9,14 +9,15 @@ def creartxt():
 def grabartxt():
 	archivo=open('datos.txt','w')
 	archivo.write(frase)
-	#archivo.write(trad)
+	archivo.write(trad)
 	#txt=archivo.read()
 	archivo.close()
 
 blob1 = TextBlob(frase)
 blob1.tags
 blob1.noun_phrases
-trad=(blob1.translate (to = "en"))
+
+trad=str (blob1.translate (to = "en"))
 print ("#############-------- TRADUCCION ----##########################")
 print (trad) ##"en" en esta parte se pone el idionma al que se quiere traducir
 
