@@ -1,0 +1,12 @@
+#Ejercicio 1
+
+archi=open('examen.txt','r')
+texto=archi.readline()
+while texto!="":
+	cont=texto.split(".")
+	for i in range(len(cont)):
+		palabras=len(cont[i].split(" "))
+		print ("El texto tiene: " +str(palabras) +" palabras")
+		print ("El texto tiene: " +str(i) +" saltos de linea")
+		texto=archi.readline()
+	archi.close()
