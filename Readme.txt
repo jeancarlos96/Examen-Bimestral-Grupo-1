@@ -9,5 +9,7 @@ Archivos que digan Mario Nuñez, fueron subidos por Michelle Arias, no se cambio 
 Se logro solucionar problema con GitHub
 
 Jean Carlos Chamba     35%
-Javier Chamba          25%     
+Javier Chamba          25%  
+Michelle Arias         25%
+Karla Arias            25%   
  
