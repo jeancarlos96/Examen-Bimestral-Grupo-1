@@ -8,6 +8,4 @@ def nprimos():
 	return True
 
 
-print es_primo(3)    #para probarlo llamamos a la función
-
 nprimos():
