@@ -12,10 +12,10 @@ def contartxt():
 			texto=archi.readline()
 		archi.close()
 
-		archi=open('ejercicio1.txt','w')
+		archi=open('ejercicio3.txt','w')
 		archi.close()
 
-		archi=open('ejercicio1.txt','a')
+		archi=open('ejercicio3.txt','a')
 		archi.write("El texto tiene: " +str(palabras) +" palabras\n")
 		archi.write("El texto tiene: " +str(i) +" saltos de linea\n")
 		archi.close()
