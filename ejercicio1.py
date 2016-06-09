@@ -30,3 +30,7 @@ def primos(num1, num2):
 n=int(input("Por favor, introduzca un número: "))       
 funcion= [p for p in range(1,n) if (p%2!=0 or p==2) and (p%3!=0 or p==3) and (p%5!=0 or p==5) and (p%7!=0 or p==7)]
 print(funcion)
+
+archi=open('primos.txt','a')
+archi.write(str(funcion))
+archi.close()
