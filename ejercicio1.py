@@ -3,8 +3,7 @@ numero = int(num)
 contador = 0
 verificar= False
 for i in range(1,numero+1):
-
-	while (numero% i)==0:
+	if (numero% i)==0:
 		contador = contador + 1
 		print (contador)
 	if contador >= 3:
@@ -13,7 +12,6 @@ for i in range(1,numero+1):
 
 if contador==2 or verificar==False:
 	print ("El número es primo")
-		print ()
 else: 
 	print ("El numero no es primo")
 
